@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: log4j
-  namespace: log4j
+  namespace: backend
   labels:
     app: log4j
 spec:

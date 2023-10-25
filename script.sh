@@ -4,6 +4,9 @@ minikube delete
 
 minikube start
 
+sudo mkdir /home/dev/App/
+sudo chmod 777 /home/dev/App/
+
 git clone https://github.com/LymerStudio/k8sExDeployments.git /home/dev/App/
 
 kubectl create namespace backend
